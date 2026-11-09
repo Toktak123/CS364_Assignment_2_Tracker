@@ -29,6 +29,19 @@
     <string name="one">1.</string>
     <string name="empty_history">No history</string>
 
+    <string name="total_steps_format">%1$d Steps</string>
+    <string name="total_shakes_format">%1$d Shakes</string>
+    <string name="item_info_format">%1$d %2$s  %3$d %4$s</string>
+    <string name="item_summary_format">%1$s  %2$.1f %3$s  %4$.1f %5$s</string>
+
+    <string name="space_text">" | "</string>
+
+    <string name="error">ERROR</string>
+
+
+    <string name="permission_denied">Permission Denied</string>
+    <string name="no_step_counter">No step counter</string>
+
     <string name="activity_detail">Activity detail</string>
     <string name="delete">Delete</string>
     <string name="close">Close</string>
