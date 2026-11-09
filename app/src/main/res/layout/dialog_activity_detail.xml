@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="0dp"
+    app:contentPadding="@dimen/card_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activityDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_detail"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/subtitle_text_size_1"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_bottom_4"
+            />
+
+        <TextView
+            android:id="@+id/text_detail_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_3"
+            android:text="@string/empty_duration"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/body_text_size_1" />
+
+        <LinearLayout
+            android:id="@+id/activityDetailInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_4"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/steps"
+                    android:textColor="@color/steps_color"
+                    android:textSize="@dimen/body_text_size_1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_detail_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/empty"
+                    android:textColor="@color/main_text"
+                    android:textSize="@dimen/body_text_size_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/shakes"
+                    android:textColor="@color/shakes_color"
+                    android:textSize="@dimen/body_text_size_1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_detail_shakes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/empty"
+                    android:textColor="@color/main_text"
+                    android:textSize="@dimen/body_text_size_1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activityDetailSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_3"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/duration"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/body_text_size_1" />
+
+                <TextView
+                    android:id="@+id/text_detail_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/empty"
+                    android:textColor="@color/duration_color"
+                    android:textSize="@dimen/body_text_size_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/steps_per_min"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/body_text_size_1" />
+
+                <TextView
+                    android:id="@+id/text_detail_steps_per_min"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/empty"
+                    android:textColor="@color/steps_color"
+                    android:textSize="@dimen/body_text_size_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/shakes_per_min"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/body_text_size_1" />
+
+                <TextView
+                    android:id="@+id/text_detail_shakes_per_min"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/empty"
+                    android:textColor="@color/shakes_color"
+                    android:textSize="@dimen/body_text_size_1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_new_step_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/side_margin_1"
+                app:cardBackgroundColor="@color/record_bg"
+                app:cardCornerRadius="@dimen/record_radius"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/record_padding"
+                tools:visibility="gone">
+
+                <TextView
+                    android:id="@+id/stepRecordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_step_record"
+                    android:textColor="@color/record_text"
+                    android:textSize="@dimen/body_text_size_2"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_new_shake_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/record_bg"
+                app:cardCornerRadius="@dimen/record_radius"
+                app:cardElevation="0dp"
+                app:contentPadding="@dimen/record_padding"
+                tools:visibility="gone">
+
+                <TextView
+                    android:id="@+id/shakeRecordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_shake_record"
+                    android:textColor="@color/record_text"
+                    android:textSize="@dimen/body_text_size_2"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/side_margin_1"
+                android:layout_weight="1"
+                android:text="@string/delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/subtitle_text_size_2"
+                android:backgroundTint="@color/delete_color"
+                app:cornerRadius="@dimen/card_radius"/>
+
+            <Button
+                android:id="@+id/button_close"
+                android:layout_width="0dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/close"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/primary_light"
+                android:textSize="@dimen/subtitle_text_size_2"
+                app:cornerRadius="@dimen/card_radius" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
