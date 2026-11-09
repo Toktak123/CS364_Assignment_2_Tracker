@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Assignment_2_Tracker</string>
+    <string name="title">Step By Step</string>
+    <string name="title_info">Track your step and shake</string>
+
+    <string name="current_session">CURRENT SESSION</string>
+    <string name="steps">STEPS</string>
+    <string name="shakes">SHAKES</string>
+    <string name="duration">Duration</string>
+
+    <string name="steps_per_min">Steps/min</string>
+    <string name="shakes_per_min">Shakes/min</string>
+
+    <string name="save_session">Save session</string>
+
+    <string name="total_from_history">Total from history</string>
+
+    <string name="session_history">Session history</string>
+
+    <string name="icon_more">></string>
+
+    <string name="new_shake_record">NEW SHAKE RECORD</string>
+    <string name="new_step_record">NEW STEP RECORD</string>
+
+    <string name="empty">-</string>
+    <string name="empty_steps">- Steps</string>
+    <string name="empty_shakes">- Shakes</string>
+    <string name="empty_duration">00:00</string>
+    <string name="one">1.</string>
+    <string name="empty_history">No history</string>
+
+    <string name="activity_detail">Activity detail</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
 </resources>

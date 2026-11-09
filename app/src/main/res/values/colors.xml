@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="main_text">#1F1233</color>
+
+    <color name="card_bg">#F6F1FE</color>
+    <color name="activity_card_bg">#FBF8FE</color>
+
+    <color name="primary">#6D28D9</color>
+    <color name="primary_light">#7433DD</color>
+
+    <color name="secondary_text">#6B5E80</color>
+    <color name="steps_color">#2563EB</color>
+    <color name="shakes_color">#9333EA</color>
+    <color name="duration_color">#16A34A</color>
+
+    <color name="record_bg">#FFF6D6</color>
+    <color name="record_text">#7A5200</color>
+
+    <color name="delete_color">#DC2626</color>
 </resources>
