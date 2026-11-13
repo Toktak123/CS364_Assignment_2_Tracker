@@ -38,6 +38,8 @@
 
     <string name="error">ERROR</string>
 
+    <string name="nothing_to_save">Nothing to save</string>
+
 
     <string name="permission_denied">Permission Denied</string>
     <string name="no_step_counter">No step counter</string>

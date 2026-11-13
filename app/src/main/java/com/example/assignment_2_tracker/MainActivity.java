@@ -199,6 +199,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     };
 
     private void saveSession() {
+        if (currentSteps == 0 && currentShakes == 0) {
+            Toast.makeText(this, R.string.nothing_to_save, Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+
         int durationSec = (int) ((System.currentTimeMillis() - startTime) / 1000);
         dbHelper.insertActivity(startTime, currentSteps, currentShakes, durationSec);
         startNewSession();
